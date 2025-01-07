@@ -1,4 +1,4 @@
-### To run the chatbot you have to:
+## To run the chatbot you have to:
 
 You need to have Docker installed on your System.
 (Use WSL2 on Windows to execute commands)

@@ -1,5 +1,6 @@
-You need to have Docker installed on your System.
+###To run the chatbot you have to:
 
+You need to have Docker installed on your System.
 (Use WSL2 on Windows to execute commands)
 
 Run this command to train the model:

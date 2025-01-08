@@ -1,5 +1,8 @@
 ## To run the chatbot you have to:
 
+According to this documentation:
+https://rasa.com/docs/rasa/docker/building-in-docker/
+
 You need to have Docker installed on your System.
 (Use WSL2 on Windows to execute commands)
 

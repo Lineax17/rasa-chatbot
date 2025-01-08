@@ -96,9 +96,21 @@ nlu:
     - What is the deadline for applying?
     - Can you tell me the application deadlines?
     - Until when can I submit my application?
-    - When is the last date to apply?
     - What's the deadline for submitting applications?
     - Is there a specific deadline for applications?
     - When does the application period close?
     - How much time do I have to apply?
-    - What is the final date to submit an application?
+
+- intent: application
+  examples: |
+    - I am interested in studying.
+    - How can I apply?
+    - What programs are available for international students?
+    - Can I study in Germany as an international student?
+    - I want to study in Germany, can you help me?
+    - What do I need to do to apply as an international student?
+    - Are there special programs for foreign students?
+    - What are the requirements to study in Germany?
+    - I am planning to study in Germany. How do I start?
+    - I am looking for information about studying in Germany.
+    - How does the application process for international students work?

@@ -34,6 +34,9 @@ responses:
   utter_application_deadline:
   - text: "The deadlines for applications are January 15th for the winter semester and July 15th for the summer semester."
 
+  utter_application:
+  - text: "Thank you for your interest in studying here! You can ask detailed questions, and I'll guide you through the first steps of the application process. Feel free to let me know what you'd like to know or need help with!"
+
 
 session_config:
   session_expiration_time: 60

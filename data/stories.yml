@@ -33,3 +33,8 @@ stories:
   steps:
   - intent: ask_application_deadline
   - action: utter_application_deadline
+
+- story: encourage application
+  steps:
+  - intent: application
+  - action: utter_application

@@ -114,3 +114,19 @@ nlu:
     - I am planning to study in Germany. How do I start?
     - I am looking for information about studying in Germany.
     - How does the application process for international students work?
+
+- intent: ask_application_data
+  examples: |
+    - What documents do I need for the application?
+    - Can you tell me which papers are required to apply?
+    - What are the required documents for admission?
+    - Which documents are needed for the application process?
+    - What paperwork is necessary to apply?
+    - What should I prepare for my application?
+    - Can you list the documents required for international students?
+    - Do I need a transcript or certificates to apply?
+    - Are there any specific documents I need to provide?
+    - What documents are needed for studying in Germany?
+    - What should I submit with my application?
+    - Do I need a motivation letter or a CV for the application?
+    - What kind of documents should I have for the application process?

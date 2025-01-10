@@ -38,3 +38,8 @@ stories:
   steps:
   - intent: application
   - action: utter_application
+
+- story: ask application documents
+  steps: 
+  - intent: ask_application_data
+  - action: utter_application_data

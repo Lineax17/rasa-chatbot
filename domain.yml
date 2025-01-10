@@ -9,6 +9,8 @@ intents:
   - mood_unhappy
   - bot_challenge
   - ask_application_deadline
+  - application
+  - ask_application_data
 
 
 responses:
@@ -43,7 +45,6 @@ responses:
         - A completed digital application form through the THD Primuss portal, which is linked on the official application page.
         - Your high school diploma or equivalent qualification.
         - A visa, depending on your country of origin.
-
         These are the general requirements. Please make sure to review the specific details and additional requirements on our official application page: [THD Application](https://www.th-deg.de/bewerbung).
 
 session_config:

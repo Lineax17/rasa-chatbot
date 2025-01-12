@@ -27,8 +27,14 @@ responses:
   utter_happy:
   - text: "Great, carry on!"
 
+  utter_confirm_goodbye:
+  - text: "Is there still something i can help you with?"
+
+  utter_ask_for_task:
+  - text: "How can i help you?"
+
   utter_goodbye:
-  - text: "Bye"
+  - text: "Have a nice day. Goodbye!"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."

@@ -29,6 +29,20 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
+- story: end conversation path 1
+  steps: 
+  - intent: goodbye
+  - action: utter_confirm_goodbye
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: end conversation path 2
+  steps: 
+  - intent: goodbye
+  - action: utter_confirm_goodbye
+  - intent: deny
+  - action: utter_ask_for_task
+
 - story: answering application deadline
   steps:
   - intent: ask_application_deadline

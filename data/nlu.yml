@@ -138,19 +138,19 @@ nlu:
     - may the force be with you!
 
 - intent: course_of_studies
-    examples: |
-      - What fields of study are available?
-      - Can you tell me about the study areas?
-      - What are the main study categories?
-      - Do you offer programs in engineering?
-      - What study options do you have in computer science?
-      - Tell me about the business-related fields.
-      - Are there any programs related to economics?
-      - What broad study areas do you offer?
-      - I'm interested in science fields, what do you have?
-      - What are the main fields in your university?
-      - Can you list some academic fields like engineering or IT?
-      - What academic categories do you provide?
-      - Tell me about major study fields.
-      - Do you have fields related to arts or humanities?
-      - What areas can I specialize in, like engineering or business?
+  examples: |
+    - What fields of study are available?
+    - Can you tell me about the study areas?
+    - What are the main study categories?
+    - Do you offer programs in engineering?
+    - What study options do you have in computer science?
+    - Tell me about the business-related fields.
+    - Are there any programs related to economics?
+    - What broad study areas do you offer?
+    - I'm interested in science fields, what do you have?
+    - What are the main fields in your university?
+    - Can you list some academic fields like engineering or IT?
+    - What academic categories do you provide?
+    - Tell me about major study fields.
+    - Do you have fields related to arts or humanities?
+    - What areas can I specialize in, like engineering or business?

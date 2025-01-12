@@ -12,6 +12,7 @@ intents:
   - application
   - ask_application_data
   - force
+  - course_of_studies
 
 
 responses:
@@ -61,6 +62,13 @@ responses:
 
   utter_force:
   - text: "May the force be with you, young padawan."
+
+  utter_course_of_studies:
+  - text: "We offer programs in several broad fields of study, including Computer Science, Business, 
+  Electrical Engineering, and Mechanical Engineering. 
+  You can find them here: [THD Faculties] (https://www.th-deg.de/de/studierende/fakultaeten)
+  Would you like me to tell you more it?"
+
 
 session_config:
   session_expiration_time: 60

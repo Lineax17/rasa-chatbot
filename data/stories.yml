@@ -64,3 +64,10 @@ stories:
   steps:
   - intent: force
   - intent: utter_force
+
+- story: provide course details
+  steps:
+  - intent: course_of_studies
+  - action: utter_course_of_studies
+  - intent: deny
+  - action: utter_ask_for_task

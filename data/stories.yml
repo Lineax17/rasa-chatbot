@@ -1,66 +1,45 @@
 version: "3.1"
 
 stories:
+  - story: end conversation path 1
+    steps:
+      - intent: goodbye
+      - action: utter_confirm_goodbye
+      - intent: deny
+      - action: utter_goodbye
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - story: end conversation path 2
+    steps:
+      - intent: goodbye
+      - action: utter_confirm_goodbye
+      - intent: affirm
+      - action: utter_ask_for_task
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - story: answering application deadline
+    steps:
+      - intent: ask_application_deadline
+      - action: utter_application_deadline
 
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - story: application data
+    steps:
+      - intent: ask_application_data
+      - action: utter_application_data
 
-- story: end conversation path 1
-  steps: 
-  - intent: goodbye
-  - action: utter_confirm_goodbye
-  - intent: deny
-  - action: utter_goodbye
+  - story: application
+    steps:
+      - intent: greet
+      - action: utter_greet_user
+      - intent: ask_application_data
+      - action: utter_application_data
 
-- story: end conversation path 2
-  steps: 
-  - intent: goodbye
-  - action: utter_confirm_goodbye
-  - intent: affirm
-  - action: utter_ask_for_task
+  - story: force
+    steps:
+      - intent: force
+      - intent: utter_force
 
-- story: answering application deadline
-  steps:
-  - intent: ask_application_deadline
-  - action: utter_application_deadline
-
-- story: application data
-  steps:
-  - intent: ask_application_data
-  - action: utter_application_data
-
-- story: appilcation
-  steps: 
-  - intent: application
-  - action: utter_application
-  - intent: ask_application_data
-  - action: utter_application_data
-
-- story: force
-  steps:
-  - intent: force
-  - intent: utter_force
+  - story: provide course details
+    steps:
+      - intent: course_of_studies
+      - action: utter_course_of_studies
+      - intent: deny
+      - action: utter_ask_for_task

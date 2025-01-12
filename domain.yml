@@ -9,9 +9,9 @@ intents:
   - mood_unhappy
   - bot_challenge
   - ask_application_deadline
-  - application
   - ask_application_data
   - force
+  - course_of_studies
 
 
 responses:
@@ -44,8 +44,8 @@ responses:
   - text: "The deadlines for applications are January 15th for the winter semester and July 15th for 
   the summer semester."
 
-  utter_application:
-  - text: "Thank you for your interest in studying here! You can ask detailed questions, and I'll guide 
+  utter_greet_user:
+  - text: "Hi! I am your personal chatbot. You can ask detailed questions, and I'll guide 
   you through the first steps of the application process. Feel free to let me know what you'd like to 
   know or need help with!"
 
@@ -61,6 +61,12 @@ responses:
 
   utter_force:
   - text: "May the force be with you, young padawan."
+
+  utter_course_of_studies:
+  - text: "We offer programs in several broad fields of study, including Computer Science, Business, 
+  Electrical Engineering, and Mechanical Engineering. 
+  You can find them here: [THD Faculties] (https://www.th-deg.de/de/studierende/fakultaeten)
+  Would you like me to tell you more it?"
 
 session_config:
   session_expiration_time: 60

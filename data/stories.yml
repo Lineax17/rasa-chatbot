@@ -48,13 +48,15 @@ stories:
   - intent: ask_application_deadline
   - action: utter_application_deadline
 
-- story: encourage application
+- story: application data
   steps:
+  - intent: ask_application_data
+  - action: utter_application_data
+
+- story: appilcation
+  steps: 
   - intent: application
   - action: utter_application
-
-- story: ask application documents
-  steps: 
   - intent: ask_application_data
   - action: utter_application_data
 

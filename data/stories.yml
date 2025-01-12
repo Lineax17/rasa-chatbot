@@ -33,14 +33,14 @@ stories:
   steps: 
   - intent: goodbye
   - action: utter_confirm_goodbye
-  - intent: affirm
+  - intent: deny
   - action: utter_goodbye
 
 - story: end conversation path 2
   steps: 
   - intent: goodbye
   - action: utter_confirm_goodbye
-  - intent: deny
+  - intent: affirm
   - action: utter_ask_for_task
 
 - story: answering application deadline

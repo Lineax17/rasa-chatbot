@@ -57,3 +57,8 @@ stories:
   steps: 
   - intent: ask_application_data
   - action: utter_application_data
+
+- story: force
+  steps:
+  - intent: force
+  - intent: utter_force

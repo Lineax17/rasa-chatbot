@@ -130,3 +130,10 @@ nlu:
     - What should I submit with my application?
     - Do I need a motivation letter or a CV for the application?
     - What kind of documents should I have for the application process?
+
+- intent: force
+  examples: |
+    - May the force be with you!
+    - may the force be with you
+    - may the force be with you!
+

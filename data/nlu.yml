@@ -1,142 +1,139 @@
 version: "3.1"
 
 nlu:
-  - intent: greet
-    examples: |
-      - hey
-      - hello
-      - hi
-      - hello there
-      - good morning
-      - good evening
-      - moin
-      - hey there
-      - let's go
-      - hey dude
-      - goodmorning
-      - goodevening
-      - good afternoon
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
 
-  - intent: goodbye
-    examples: |
-      - cu
-      - good by
-      - cee you later
-      - good night
-      - bye
-      - goodbye
-      - have a nice day
-      - see you around
-      - bye bye
-      - see you later
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
 
-  - intent: affirm
-    examples: |
-      - yes
-      - y
-      - indeed
-      - of course
-      - that sounds good
-      - correct
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
 
-  - intent: deny
-    examples: |
-      - no
-      - n
-      - never
-      - I don't think so
-      - don't like that
-      - no way
-      - not really
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
 
-  - intent: mood_great
-    examples: |
-      - perfect
-      - great
-      - amazing
-      - feeling like a king
-      - wonderful
-      - I am feeling very good
-      - I am great
-      - I am amazing
-      - I am going to save the world
-      - super stoked
-      - extremely good
-      - so so perfect
-      - so good
-      - so perfect
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
 
-  - intent: mood_unhappy
-    examples: |
-      - my day was horrible
-      - I am sad
-      - I don't feel very well
-      - I am disappointed
-      - super sad
-      - I'm so sad
-      - sad
-      - very sad
-      - unhappy
-      - not good
-      - not very good
-      - extremly sad
-      - so saad
-      - so sad
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
 
-  - intent: bot_challenge
-    examples: |
-      - are you a bot?
-      - are you a human?
-      - am I talking to a bot?
-      - am I talking to a human?
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
 
-  - intent: ask_application_deadline
-    examples: |
-      - When is the application deadline?
-      - What is the deadline for applying?
-      - Can you tell me the application deadlines?
-      - Until when can I submit my application?
-      - What's the deadline for submitting applications?
-      - Is there a specific deadline for applications?
-      - When does the application period close?
-      - How much time do I have to apply?
+- intent: ask_application_deadline
+  examples: |
+    - When is the application deadline?
+    - What is the deadline for applying?
+    - Can you tell me the application deadlines?
+    - Until when can I submit my application?
+    - What's the deadline for submitting applications?
+    - Is there a specific deadline for applications?
+    - When does the application period close?
+    - How much time do I have to apply?
 
-  - intent: ask_application_data
-    examples: |
-      - What documents do I need for the application?
-      - Can you tell me which papers are required to apply?
-      - What are the required documents for admission?
-      - Which documents are needed for the application process?
-      - What paperwork is necessary to apply?
-      - What should I prepare for my application?
-      - Can you list the documents required for international students?
-      - Do I need a transcript or certificates to apply?
-      - Are there any specific documents I need to provide?
-      - What documents are needed for studying in Germany?
-      - What should I submit with my application?
-      - Do I need a motivation letter or a CV for the application?
-      - What kind of documents should I have for the application process?
+- intent: application
+  examples: |
+    - I am interested in studying.
+    - How can I apply?
+    - What programs are available for international students?
+    - Can I study in Germany as an international student?
+    - I want to study in Germany, can you help me?
+    - What do I need to do to apply as an international student?
+    - Are there special programs for foreign students?
+    - What are the requirements to study in Germany?
+    - I am planning to study in Germany. How do I start?
+    - I am looking for information about studying in Germany.
+    - How does the application process for international students work?
 
-  - intent: force
-    examples: |
-      - May the force be with you!
-      - may the force be with you
-      - may the force be with you!
+- intent: ask_application_data
+  examples: |
+    - What documents do I need for the application?
+    - Can you tell me which papers are required to apply?
+    - What are the required documents for admission?
+    - Which documents are needed for the application process?
+    - What paperwork is necessary to apply?
+    - What should I prepare for my application?
+    - Can you list the documents required for international students?
+    - Do I need a transcript or certificates to apply?
+    - Are there any specific documents I need to provide?
+    - What documents are needed for studying in Germany?
+    - What should I submit with my application?
+    - Do I need a motivation letter or a CV for the application?
+    - What kind of documents should I have for the application process?
 
-  - intent: course_of_studies
-    examples: |
-      - What fields of study are available?
-      - Can you tell me about the study areas?
-      - What are the main study categories?
-      - Do you offer programs in engineering?
-      - What study options do you have in computer science?
-      - Tell me about the business-related fields.
-      - Are there any programs related to economics?
-      - What broad study areas do you offer?
-      - I'm interested in science fields, what do you have?
-      - What are the main fields in your university?
-      - Can you list some academic fields like engineering or IT?
-      - What academic categories do you provide?
-      - Tell me about major study fields.
-      - Do you have fields related to arts or humanities?
-      - What areas can I specialize in, like engineering or business?
+- intent: force
+  examples: |
+    - May the force be with you!
+    - may the force be with you
+    - may the force be with you!
+

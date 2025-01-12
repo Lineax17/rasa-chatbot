@@ -53,7 +53,7 @@ stories:
   - intent: ask_application_data
   - action: utter_application_data
 
-- story: appilcation
+- story: application
   steps: 
   - intent: application
   - action: utter_application

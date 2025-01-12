@@ -48,26 +48,21 @@ stories:
   - intent: ask_application_deadline
   - action: utter_application_deadline
 
-- story: application data
-  steps:
-  - intent: ask_application_data
-  - action: utter_application_data
+#- story: application data
+#  steps:
+#  - intent: ask_application_data
+#  - action: utter_application_data
 
 - story: appilcation
   steps: 
   - intent: application
   - action: utter_application
-  - intent: ask_application_data
-  - action: utter_application_data
+  #- intent: ask_application_data
+  #- action: utter_application_data
 
-- story: force
-  steps:
-  - intent: force
-  - intent: utter_force
-
-- story: provide course details
-  steps:
-  - intent: course_of_studies
-  - action: utter_course_of_studies
-  - intent: deny
-  - action: utter_ask_for_task
+#- story: provide course details
+#  steps:
+#  - intent: course_of_studies
+#  - action: utter_course_of_studies
+#  - intent: deny
+#  - action: utter_ask_for_task

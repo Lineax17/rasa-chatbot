@@ -48,10 +48,10 @@ stories:
   - intent: ask_application_deadline
   - action: utter_application_deadline
 
-#- story: application data
-#  steps:
-#  - intent: ask_application_data
-#  - action: utter_application_data
+- story: application data
+  steps:
+  - intent: ask_application_data
+  - action: utter_application_data
 
 - story: appilcation
   steps: 

@@ -58,6 +58,8 @@ responses:
       requirements on our official application page: 
       [THD Application](https://www.th-deg.de/bewerbung)."
 
+# Course of Study
+
   utter_course_of_studies:
   - text: |
       "We offer programs in several broad fields of study, including Computer Science, Business, 

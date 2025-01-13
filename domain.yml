@@ -13,76 +13,79 @@ intents:
   - ask_application_data
   - force
   - course_of_studies
-
+  - ask_for_more_info_informatics
+  - ask_for_more_info_business
+  - ask_for_more_info_electrical_engineering
+  - ask_for_more_info_mechanical_engineering
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+    - text: "Hey! How are you?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+    - text: "Did that help you?"
 
   utter_happy:
-  - text: "Great, carry on!"
+    - text: "Great, carry on!"
 
   utter_confirm_goodbye:
-  - text: "Is there still something i can help you with?"
+    - text: "Is there still something i can help you with?"
 
   utter_ask_for_task:
-  - text: "How can i help you?"
+    - text: "How can i help you?"
 
   utter_goodbye:
-  - text: "Have a nice day. Goodbye!"
+    - text: "Have a nice day. Goodbye!"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+    - text: "I am a bot, powered by Rasa."
 
   utter_application_deadline:
-  - text: "The deadlines for applications are January 15th for the winter semester and July 15th for the summer semester."
+    - text: "The deadlines for applications are January 15th for the winter semester and July 15th for the summer semester."
 
   utter_application:
-  - text: "Thank you for your interest in studying here! You can ask detailed questions, and I'll guide you through the first steps of the application process. Feel free to let me know what you'd like to know or need help with!"
+    - text: "Thank you for your interest in studying here! You can ask detailed questions, and I'll guide you through the first steps of the application process. Feel free to let me know what you'd like to know or need help with!"
 
   utter_application_data:
-  - text: |
-      "To apply, you will need the following key documents:
-      1. A completed digital application form through the THD Primuss portal, which is linked on the 
-        official application page.
-      2. Your high school diploma or equivalent qualification.
-      3. A visa, depending on your country of origin.
-      These are the general requirements. Please make sure to review the specific details and additional 
-      requirements on our official application page: 
-      [THD Application](https://www.th-deg.de/bewerbung)."
+    - text: |
+        "To apply, you will need the following key documents:
+        1. A completed digital application form through the THD Primuss portal, which is linked on the 
+          official application page.
+        2. Your high school diploma or equivalent qualification.
+        3. A visa, depending on your country of origin.
+        These are the general requirements. Please make sure to review the specific details and additional 
+        requirements on our official application page: 
+        [THD Application](https://www.th-deg.de/bewerbung)."
 
-# Course of Study
+  # Course of Study
 
   utter_course_of_studies:
-  - text: |
-      "We offer programs in several broad fields of study, including Computer Science, Business, 
-      Electrical Engineering, and Mechanical Engineering. 
-      You can find them here: [THD Faculties] (https://www.th-deg.de/de/studierende/fakultaeten)
-      Would you like me to tell you more about one of them?"
+    - text: |
+        "We offer programs in several broad fields of study, including Computer Science, Business, 
+        Electrical Engineering, and Mechanical Engineering. 
+        You can find them here: [THD Faculties] (https://www.th-deg.de/de/studierende/fakultaeten)
+        Would you like me to tell you more about one of them?"
 
   utter_more_info_informatics:
-   - text: |
-      The Faculty of Applied Computer Science offers the following programs:
-      [Fakulty Side](https://www.th-deg.de/ai)
-        
-      Bachelor Programs:
-        Applied Computer Science / Infotronics B.Eng.
-        Artificial Intelligence B.Sc.
-        Cyber Security B.Sc.
-        Business Informatics B.Sc.
-       
-      Master Programs:
-        Applied Computer Science / Infotronics M.Sc.
-        Artificial Intelligence and Data Science M.Sc.
-        Automotive Software Engineering M.Eng.
-       
+    - text: |
+        The Faculty of Applied Computer Science offers the following programs:
+        [Fakulty Side](https://www.th-deg.de/ai)
+
+        Bachelor Programs:
+          Applied Computer Science / Infotronics B.Eng.
+          Artificial Intelligence B.Sc.
+          Cyber Security B.Sc.
+          Business Informatics B.Sc. 
+
+        Master Programs:
+          Applied Computer Science / Infotronics M.Sc.
+          Artificial Intelligence and Data Science M.Sc.
+          Automotive Software Engineering M.Eng.
+
   #utter_more_info_business:
   # - text: |
   #     The Faculty of Applied Economics (School of Management) offers the following programs:
@@ -96,7 +99,7 @@ responses:
   #     - Digital Business M.Sc.
   #     - Human Resource Management M.A.
   #     - Strategic and International Management M.A.
-       
+
   #utter_more_info_electrical_engineering:
   # - text: |
   #     "The Faculty of Electrical and Media Engineering offers the following programs:
@@ -107,7 +110,7 @@ responses:
   #     Master Programs:
   #     - Electrical Engineering and Information Technology M.Eng.
   #     - Media Technology M.Eng."
-       
+
   #utter_more_info_mechanical_engineering:
   # - text: |
   #    The Faculty of Mechanical Engineering and Mechatronics offers the following programs:
@@ -118,7 +121,6 @@ responses:
   #     Master Programs:
   #     - Mechanical Engineering M.Eng.
   #     - Mechatronic and Cyber-Physical Systems M.Eng.
-      
 
 session_config:
   session_expiration_time: 60

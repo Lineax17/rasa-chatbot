@@ -97,7 +97,16 @@ stories:
   - intent: ask_for_more_info_mechanical_engineering
   - action: utter_more_info_mechanical_engineering
 
+# Easter Egg
+
 - story: force easteregg
   steps:
   - intent: force
   - action: utter_force
+
+# Studying in Deggendorf
+
+- story: about deggendorf
+  steps: 
+  - intent: ask_about_deggendorf
+  - action: utter_about_deggendorf

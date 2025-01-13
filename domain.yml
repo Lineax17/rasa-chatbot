@@ -17,6 +17,7 @@ intents:
   - ask_for_more_info_business
   - ask_for_more_info_electrical_engineering
   - ask_for_more_info_mechanical_engineering
+  - ask_about_deggendorf
 
 responses:
   utter_greet:
@@ -120,9 +121,20 @@ responses:
         Mechanical Engineering M.Eng.
         Mechatronic and Cyber-Physical Systems M.Eng.
 
+# Easter Egg
+
   utter_force:
    - text: |
       May the force be with you, young padawan.
+
+# Studying in Deggendorf
+
+  utter_about_deggendorf:
+   - text: |
+      Deggendorf is a vibrant student city. With a population of 35,000, it is relatively small, but that makes everything conveniently accessible. 
+      Lecture halls, supermarkets, and pubs are all within walking distance. Despite its size, Deggendorf offers plenty of opportunities to meet friends 
+      and engage in various activities. Whether you want to go to a club or enjoy a bike ride along the Danube, Deggendorf has something for everyone.
+
 
 session_config:
   session_expiration_time: 60

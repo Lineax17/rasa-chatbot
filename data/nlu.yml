@@ -184,6 +184,23 @@ nlu:
     - Tell me about the Mechanical Engineering field.
     - I want details on Mechanical Engineering courses.
 
+# Easter Egg
+
 - intent: force
   examples: |
     - may the force be with you
+
+# About studying in Deggendorf
+
+- intent: ask_about_deggendorf
+  examples: |
+    - What's it like in Deggendorf?
+    - Can you tell me about Deggendorf?
+    - How is life in Deggendorf?
+    - What is living in Deggendorf like?
+    - Is Deggendorf a nice place to live?
+    - What's the city of Deggendorf like?
+    - What can I expect in Deggendorf?
+    - Tell me more about Deggendorf.
+    - How is the lifestyle in Deggendorf?
+    - What's the atmosphere like in Deggendorf?

@@ -18,6 +18,7 @@ intents:
   - ask_for_more_info_electrical_engineering
   - ask_for_more_info_mechanical_engineering
   - ask_about_deggendorf
+  - ask_about_student_activities
 
 responses:
   utter_greet:
@@ -134,7 +135,12 @@ responses:
       Deggendorf is a vibrant student city. With a population of 35,000, it is relatively small, but that makes everything conveniently accessible. 
       Lecture halls, supermarkets, and pubs are all within walking distance. Despite its size, Deggendorf offers plenty of opportunities to meet friends 
       and engage in various activities. Whether you want to go to a club or enjoy a bike ride along the Danube, Deggendorf has something for everyone.
-
+      
+  utter_student_activities:
+   - text: |
+      There are many different student clubs and organizations to join. Additionally, the university 
+      hosts regular events like the campus cinema and semester parties. You can also participate in 
+      activities like university sports or join the university choir and orchestra.
 
 session_config:
   session_expiration_time: 60

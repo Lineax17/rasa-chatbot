@@ -63,6 +63,9 @@ nlu:
     - super stoked
     - extremely good
     - so so perfect
+    - What is living in Deggendorf like?
+    - Is Deggendorf a nice place to live?
+    - What's the city of Deggendorf like?
     - so good
     - so perfect
 
@@ -204,3 +207,17 @@ nlu:
     - Tell me more about Deggendorf.
     - How is the lifestyle in Deggendorf?
     - What's the atmosphere like in Deggendorf?
+
+- intent: ask_about_student_activities
+  examples: |
+    - What student activities are available?
+    - Can you tell me about activities for students?
+    - Are there any clubs or events for students?
+    - What can students do for fun?
+    - Are there any student organizations I can join?
+    - What kind of activities are there for students in Deggendorf?
+    - Are there any events specifically for students?
+    - What extracurricular activities are offered for students?
+    - Are there sports clubs for students?
+    - What are some popular activities among students?
+

@@ -110,3 +110,8 @@ stories:
   steps: 
   - intent: ask_about_deggendorf
   - action: utter_about_deggendorf
+
+- story: student activities
+  steps:
+  - intent: ask_about_student_activities
+  - action: utter_student_activities

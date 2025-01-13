@@ -75,3 +75,24 @@ stories:
   - action: utter_course_of_studies
   - intent: ask_for_more_info_informatics
   - action: utter_more_info_informatics
+
+- story: provide course details business
+  steps:
+  - intent: course_of_studies
+  - action: utter_course_of_studies
+  - intent: ask_for_more_info_business
+  - action: utter_more_info_business
+
+- story: provide course details electrical engineering
+  steps:
+  - intent: course_of_studies
+  - action: utter_course_of_studies
+  - intent: ask_for_more_info_electrical_engineering
+  - action: utter_more_info_electrical_engineering
+
+- story: provide course details mechanical engineering
+  steps:
+  - intent: course_of_studies
+  - action: utter_course_of_studies
+  - intent: ask_for_more_info_mechanical_engineering
+  - action: utter_more_info_mechanical_engineering

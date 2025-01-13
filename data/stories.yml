@@ -96,3 +96,8 @@ stories:
   - action: utter_course_of_studies
   - intent: ask_for_more_info_mechanical_engineering
   - action: utter_more_info_mechanical_engineering
+
+- story: force easteregg
+  steps:
+  - intent: force
+  - action: utter_force

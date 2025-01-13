@@ -120,6 +120,10 @@ responses:
         Mechanical Engineering M.Eng.
         Mechatronic and Cyber-Physical Systems M.Eng.
 
+  utter_force:
+   - text: |
+      May the force be with you, young padawan.
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

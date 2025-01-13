@@ -183,3 +183,7 @@ nlu:
     - What programs do you have in Mechanical Engineering?
     - Tell me about the Mechanical Engineering field.
     - I want details on Mechanical Engineering courses.
+
+- intent: force
+  examples: |
+    - may the force be with you

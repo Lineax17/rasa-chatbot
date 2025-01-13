@@ -65,6 +65,65 @@ responses:
       You can find them here: [THD Faculties] (https://www.th-deg.de/de/studierende/fakultaeten)
       Would you like me to tell you more about one of them?"
 
+  utter_more_info_informatics:
+   - text: |
+       The Faculty of Applied Computer Science offers the following programs:
+       [Fakulty Side](https://www.th-deg.de/ai)
+        
+       Bachelor Programs:
+       - Applied Computer Science / Infotronics B.Eng.
+       - Artificial Intelligence B.Sc.
+       - Cyber Security B.Sc.
+       - Business Informatics B.Sc.
+       
+       Master Programs:
+       - Applied Computer Science / Infotronics M.Sc.
+       - Artificial Intelligence and Data Science M.Sc.
+       - Automotive Software Engineering M.Eng.
+       
+  utter_more_info_business:
+   - text: |
+       The Faculty of Applied Economics (School of Management) offers the following programs:
+       [Fakulty Side](https://www.th-deg.de/aww)
+
+
+       Bachelor Programs:
+       - Business Administration B.A.
+       - Applied Business Psychology B.Sc.
+       - International Management B.A.
+       - Tourism Management B.A.
+       
+       Master Programs:
+       - Digital Business M.Sc.
+       - Human Resource Management M.A.
+       - Strategic and International Management M.A.
+       
+  utter_more_info_electrical_engineering:
+   - text: |
+       The Faculty of Electrical and Media Engineering offers the following programs:
+       [Fakulty Side](https://www.th-deg.de/emt)
+
+       Bachelor Programs:
+       - Electrical and Information Technology B.Eng.
+       - Media Technology B.Eng.
+       
+       Master Programs:
+       - Electrical Engineering and Information Technology M.Eng.
+       - Media Technology M.Eng.
+       
+  utter_more_info_mechanical_engineering:
+   - text: |
+       The Faculty of Mechanical Engineering and Mechatronics offers the following programs:
+       [Fakulty Side](https://www.th-deg.de/mb-mk)
+
+       Bachelor Programs:
+       - Mechanical Engineering B.Eng.
+       - Mechatronics B.Eng.
+        
+       Master Programs:
+       - Mechanical Engineering M.Eng.
+       - Mechatronic and Cyber-Physical Systems M.Eng.
+      
 
 session_config:
   session_expiration_time: 60

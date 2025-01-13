@@ -115,3 +115,8 @@ stories:
   steps:
   - intent: ask_about_student_activities
   - action: utter_student_activities
+
+- story: transport in deggendorf
+  steps:
+  - intent: ask_about_transport
+  - action: utter_transport_in_deggendorf

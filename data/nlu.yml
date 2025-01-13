@@ -221,3 +221,15 @@ nlu:
     - Are there sports clubs for students?
     - What are some popular activities among students?
 
+- intent: ask_about_transport
+  examples: |
+    - How is the public transport in Deggendorf?
+    - What is the transportation like in Deggendorf?
+    - Are there buses or trains in Deggendorf?
+    - How can I get around Deggendorf?
+    - Is there a good transport network in Deggendorf?
+    - Does Deggendorf have public transport?
+    - Are there trains or buses connecting Deggendorf?
+    - How easy is it to travel to other cities from Deggendorf?
+    - What's the best way to get around Deggendorf?
+    - Is it easy to commute in Deggendorf?

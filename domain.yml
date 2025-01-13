@@ -19,6 +19,7 @@ intents:
   - ask_for_more_info_mechanical_engineering
   - ask_about_deggendorf
   - ask_about_student_activities
+  - ask_about_transport
 
 responses:
   utter_greet:
@@ -141,6 +142,14 @@ responses:
       There are many different student clubs and organizations to join. Additionally, the university 
       hosts regular events like the campus cinema and semester parties. You can also participate in 
       activities like university sports or join the university choir and orchestra.
+
+  utter_transport_in_deggendorf:
+    - text: |
+        Deggendorf is located at the highway junction of the A3 towards Passau/Austria and the A92 
+        towards Munich. The city also has a train connection and several bus lines, making it easy 
+        to travel both locally and regionally. With these options, you can easily visit the nearby 
+        Bavarian Forest or bigger German cities.
+
 
 session_config:
   session_expiration_time: 60
